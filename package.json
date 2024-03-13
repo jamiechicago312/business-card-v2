@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "start": "webpack serve --config webpack.dev.config.js",
+        "build": "webpack --config webpack.prod.config.js"
+    }
+}

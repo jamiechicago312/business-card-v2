@@ -1,0 +1,174 @@
+/*Over All Styling*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #23252C;
+    min-width: 375px;
+}
+
+body {
+    width: 320px;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    border-radius: 1em;
+    background: #F5F5F5;
+}
+
+/*Styling for Header*/
+.Header > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #2B283A;
+}
+
+.Header > h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F47D27;
+}
+
+.Header > h3 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #4A4E74;
+}
+
+/*Styling for Contact Buttons*/
+
+.Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 13px;
+    gap: 8px;
+}
+
+.Contact--Email {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+        
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.Contact--LinkedIn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px;
+    gap: 8px;
+    background: #297FE5;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+/*Main*/
+
+.Main {
+    margin: 35px 30px;
+}
+
+.Main > h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+.Main > p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #4A4E74; 
+}
+
+/*Footer*/
+
+.Footer {
+    background: #D5D4D8;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.Footer > ul {
+      padding: 20px 0px;
+      text-align: center;
+}
+
+.Footer > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+/*IMG Handling -- icons, profile shot, etc*/
+
+.Png--Email {
+    width: 13px;
+}
+
+.Png--LinkedIn {
+    width: 13px;
+}
+
+.Png--Farcaster {
+    width: 13px;
+}
+
+.Footer  img {
+    width: 25px;
+    
+}
+
+.Header > img {
+    width: 320px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Link Handling*/
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
